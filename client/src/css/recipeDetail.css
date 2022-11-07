@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&family=Playfair+Display&family=Prata&display=swap');
+
+body{
+    margin: 0;
+}
+
+.detail_body{
+    background-color: #f0edea;
+    background-image: url(C:\Users\Cecilia\Desktop\PI-Food-main\client\src\imagenes\bk-1.png);
+   margin: 0;
+background-size: 100vmax;
+display: flex;
+justify-content: center;
+font-family: "Pavanam";
+}
+
+.detail_card{
+    width: 700px;
+    max-width: 700px;
+   justify-content: center;
+   margin: 10px;
+}
+
+.detail_name{
+
+    font-family: "Playfair Display", serif ;
+    font-size: 2rem;
+}
+
+.detail_box_img{
+   
+    
+}
+
+.detail_img{
+    width: 450px;
+    ;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.detail_health{
+ margin: 8px;
+}
+
+.detail_resume{
+    margin: 5px;
+   
+}
+
+.justify{
+    text-align: justify;
+}

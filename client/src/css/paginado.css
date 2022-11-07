@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&family=Playfair+Display&family=Prata&display=swap');
+.paginado_organizar{
+  display: flex;
+  margin: 0;
+ justify-content: center;
+  align-items: flex-start;
+ 
+}
+
+.Recipes{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 15px;
+
+ 
+    
+}
+
+.pageNumbers{
+list-style: none;
+display: flex;
+
+}
+
+.pageNumbers li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor:pointer;
+    margin: 2px;
+    color: rgb(149, 105, 89);
+}
+
+.pageNumbers li.active{
+    background-color: blanchedalmond;
+    color: coral;
+}
+
+.pageNumbers li button {
+      background-color: transparent;
+      border: 1px solid coral;
+      box-sizing: border-box;
+      color:coral;
+      font-family: "Avenir Next LT W01 Bold",sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2px;
+      padding: 10px 15px;
+      position: relative;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+     
+    }
+    
+  
+    
+    .pageNumbers li button {
+      background-color: transparent;
+      cursor: pointer;
+     
+    }
+    
+    .pageNumbers li button:before {
+      background-color: rgb(252, 247, 240);
+      content: "";
+      height: calc(100% + 3px);
+      position: absolute;
+      right: -5px;
+      top: -9px;
+      transition: background-color 200ms ease-in;
+      width: 100%;
+      z-index: -1;
+    }
+    
+    .pageNumbers li button:hover:before {
+      background-color:  blanchedalmond;
+    }
+    
+    @media (min-width: 768px) {
+      .button-51 {
+        padding: 10px 15px;
+      }
+    }
+
+
+/* .pageNumbers li button:hover{
+    background-color: coral;
+    color: blanchedalmond;
+} */

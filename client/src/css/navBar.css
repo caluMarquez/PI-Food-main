@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&family=Playfair+Display&family=Prata&display=swap');
+
+.body{
+    margin: 0;
+   font-family:  "Pavanam",sans-serif ;
+   font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    }
+
+img {
+    max-width: 100%;
+}
+
+a:hover{
+    color: coral;
+}
+
+
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff,  #ede8e2);
+  padding-bottom: 8px;
+  
+}
+
+.toggle-menu{
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+    width: 40px;
+    filter: invert(.30);
+    z-index: 1;
+}
+
+@media screen and (mind-width: 768px) {
+    .toggle-menu{
+       display: none;
+    }
+}
+
+.main-menu{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   /* background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb); 
+   transform: translateY(-100%); */
+
+
+}
+.main-nav:active{
+    background-color: blanchedalmond ;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    
+}
+
+/* .main-menu--show{
+    transform: translateY(0);
+    
+} */
+
+@media screen and (mind-width: 768px) {
+    .main-menu{
+        flex-direction: column;
+    }
+}
+
+.main-menu_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu_items a{
+    color: coral;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+}
+
+
+

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&family=Playfair+Display&family=Prata&display=swap');
+
+.searchbox{
+    width: 50%;
+     margin: auto;
+     max-width: 350px;
+   display: flex;
+}
+
+.Boton{
+width: 75%;
+
+border: 2px solid whitesmoke;
+border-radius: 2px;
+border-right: 0px;
+font-size: "Playfair+Display", serif ;
+padding: 12px;
+background-color: transparent;
+color: blanchedalmond;
+
+}
+
+.Input{
+    width: 75%;;
+    border: 2px solid whitesmoke;
+    border-radius: 2px;
+    border-right: 0px;
+    font-size: "Playfair+Display", serif ;
+    padding: 12px;
+    
+    background-color: whitesmoke;
+    color: #adabaa;
+    }
+
+.Boton{
+    width: 70px;
+    background: whitesmoke;
+    color: coral;
+    float:right;
+    border-left: 0px;
+
+}
